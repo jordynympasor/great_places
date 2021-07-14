@@ -6,8 +6,11 @@
         </intent>
     </queries>
    <application
+        
         android:label="great_places_udemy"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAgCWmBCopb2URuWzhPG592YCeH1piOB7E"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
